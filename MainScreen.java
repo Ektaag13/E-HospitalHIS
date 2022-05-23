@@ -90,7 +90,7 @@ public class MainScreen extends JFrame implements ActionListener
 				Help = new JMenu("Help");
 				mbar.add(Help);
 				
-				Aboutus = new JMenuItem("Aboutus");
+				Aboutus = new JMenuItem("About Us");
 				Help.add(Aboutus);
 				Aboutus.addActionListener(this);
 				
@@ -114,7 +114,7 @@ public class MainScreen extends JFrame implements ActionListener
 				}
 				if(arg.getSource()==Aboutus)
 				{
-					JOptionPane.showMessageDialog(this, "This app is created by RAMRATAN SHARMA \n Email: drramsharma1996@gmail.com \n Mo: 9828344134");
+					JOptionPane.showMessageDialog(this, "This Hospital Information System is created as a Major project. \n Team includes \n 1. Ankita Boran \n2. Ekta Agarwal \n 3. Vijendra Kumawat");
 					
 					
 				}
@@ -186,7 +186,7 @@ public class MainScreen extends JFrame implements ActionListener
 			}*/
 				public static void main (String[] args)
 				{
-					MainScreen m = new MainScreen("Patient Information System");
+					MainScreen m = new MainScreen("E-Hospital HIS");
 				}
 
 				
